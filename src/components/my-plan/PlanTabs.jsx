@@ -11,7 +11,7 @@ const PlanTabs = ({ activeTab, setActiveTab, planCount, savedCount }) => {
             : 'border-transparent text-gray-400'
         }`}
       >
-        Today's Plan ({planCount})
+        {"Today's Plan"} ({planCount})
       </button>
 
       <button

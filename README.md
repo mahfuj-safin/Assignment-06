@@ -46,15 +46,13 @@ exercises for later.
 ### 1. Clone the repository
 
 ```bash
-git https://github.com/mahfuj-safin/PH-A-06
+git https://github.com/mahfuj-safin/Assignment-06
 ```
 
 ## Available Scripts
 
 - `npm run dev` — Start the development server.
 - `npm run build` — Create a production build.
-- `npm run start` — Start the production server.
-- `npm run lint` — Run the lint script if configured in `package.json`.
 
 ## Data Source
 
@@ -67,11 +65,7 @@ Workout details are retrieved using the corresponding workout ID.
 ## Project Structure
 
 ```text
-assignment-6/
-│
-├── public/
-│   └── ...
-│
+
 ── src/
    │
    ├── app/
@@ -97,8 +91,6 @@ _Note: Update the file extensions and structure above to match the actual
 project files._
 
 ## Live Demo
-
-Add your deployed application URL here after deployment.
 
 ## Author
 

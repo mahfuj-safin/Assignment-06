@@ -11,7 +11,7 @@ const WorkoutCard = ({
   const isCompleted = completed.includes(workout.id);
 
   return (
-    <article className="flex flex-col gap-5 rounded-xl border border-white/10 bg-white/[0.03] p-4 transition hover:border-white/20 sm:flex-row sm:items-center sm:p-5 ">
+    <article className="flex flex-col gap-5 rounded-xl border border-white/10 bg-white/3 p-4 transition hover:border-white/20 sm:flex-row sm:items-center sm:p-5 ">
       <div className="flex min-w-0 flex-1 items-center gap-4">
         <Image
           src={workout.image}
