@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <Suspense fallback={<div className="h-16"></div>}>
           <Navbar />
         </Suspense>
-        {children}
+        <main className="pt-20">{children}</main>
         <Footer />
         <ToastContainer />
       </body>

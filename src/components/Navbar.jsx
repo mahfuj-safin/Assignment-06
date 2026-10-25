@@ -40,7 +40,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="relative border-b border-[#303030] bg-[#101010] ">
+    <header className="fixed top-0 left-0 z-50 w-full border-b border-[#303030] bg-[#101010]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 ">
         {/* Mobile hamburger button: left side */}
         <button
