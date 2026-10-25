@@ -2,6 +2,7 @@ import { ToastContainer } from 'react-toastify';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { Suspense } from 'react';
 
 export const metadata = {
   title: 'FitLog | Workout Library',
@@ -13,7 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        <Suspense fallback={<div className="h-16"></div>}>
+          <Navbar />
+        </Suspense>
         {children}
         <Footer />
         <ToastContainer />
